@@ -1,0 +1,151 @@
+/* header */
+
+header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.navbar div {
+    padding: 10px;
+}
+
+.navbar div a {
+    background-image: url('https://cdn.pixabay.com/animation/2023/02/24/15/52/15-52-12-954_512.gif');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar div a:after {
+    display: block;
+    content: '';
+    width: inherit;
+    border-bottom: solid 3px #1a1a1a;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.navbar div a:hover::after {
+    transform: scaleX(1);
+}
+
+/* header */
+body {
+    background-color: #1a1a1a;
+    font-family: Arial;
+    margin: 0;
+}
+
+main {
+    padding: 30px;
+    padding-bottom: 100px;
+    color: white;
+    background-color: #1a1a1a;
+}
+
+main div {
+    border-radius: 10px;
+    background-color: #000000;
+
+}
+
+main h1,
+h2,
+p {
+    padding: 20px 10px 20px 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+main li,
+ul,
+ol {
+    padding: 0px 10px 5px 10px;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #1a1a1a;
+}
+
+.tabela {
+    padding: 10px 10px 10px 10px;
+}
+
+/* footer */
+footer {
+    justify-content: space-around;
+    display: flex;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer div {
+    padding: 10px 20px 10px 20px;
+}
+
+footer div a {
+    background-image: url('https://cdn.pixabay.com/animation/2023/02/24/15/52/15-52-12-954_512.gif');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer img {
+    height: 80px;
+}
+
+.footerText {
+    border-radius: 30px;
+    background-color: #000000;
+}
+
+.footerText div a:after {
+    display: block;
+    content: '';
+    width: inherit;
+    border-bottom: solid 3px #1a1a1a;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.footerText div a:hover::after {
+    transform: scaleX(1);
+}
